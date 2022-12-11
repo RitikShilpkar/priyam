@@ -1,0 +1,112 @@
+.container1 {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* height: 20vh; */
+  background-color: #000;
+  padding-top: 6vmax;
+  padding-bottom: 6vmax;
+  cursor: pointer;
+}
+.left-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 52vmax;
+  /* height: 100%; */
+  /* background-color: bisque; */
+  opacity: 0;
+  transition: all 0.5s;
+ 
+}
+.container1:hover .left-container1{
+ opacity:  1;
+  
+}
+.right-container1{
+  width: 32vmax;
+  /* background-color: #FFF900; */
+
+}
+.right-container1 > .about{
+  color: #fff;
+  font-weight: 800;
+  margin-left: 4vmax;
+  
+}
+.container1 >.right-container1 > h3{
+    font-family: 'Founders Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 36px; */
+    font-size: 2.5vmax;
+    /* line-height: 29px; */
+    line-height: 2.5vmax;
+  
+    color: #FFF900;
+   
+    margin-bottom: 6vmax;
+}
+
+.right-container1 > h3 hr{
+  margin-top: 1vmax;
+     background-color: #FFF900;
+    height: 2px;
+    border: none;
+   
+}
+.left-container1 > iframe{
+    width: 35vmax;
+    
+}
+.right-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  margin-left: 4vmax;
+  /* background-color: #fff; */
+  position: relative;
+}
+.icon{
+  width:100.33px;
+   position: absolute;
+   top: 27%;
+   left: 6%;
+   z-index: 0;
+}
+.right-container1 > h3 {
+    width: 85%;
+  color: #fff900;
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 35px; */
+  font-size: 2.5vmax;
+  /* line-height: 38px; */
+  line-height: 2.5vmax;
+  z-index: 999;
+}
+
+.container1 > .right-container1 > .p {
+    width: 85%;
+    color: #fff;
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 26px; */
+  font-size: 1.7vmax;
+  /* line-height: 38px; */
+  line-height: 2.5vmax;
+  margin-left: 4vmax;
+}
+.container1 > .opacity{
+  /* background-color: #FFF900; */
+  opacity: 1;
+}

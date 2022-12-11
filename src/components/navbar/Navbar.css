@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    height: 8vmax;
+    background-color: #000;
+}
+.navbar-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vmax;
+    margin-left: 6vmax;
+    /* padding-left: 2vmax; */
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 13vmax;
+}
+.logo img{
+    /* width: 3vmax; */
+    width: 49.7px;
+}
+.logo h5{
+    /* color: aliceblue;
+    font-size: 1.5vmax;
+    font-weight: 600; */
+    color: #FFFFFF;
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18.8703px;
+    line-height: 22px
+}
+.navbar-left h6{
+    color: aliceblue;
+    font-size: 1.5vmax;
+    font-weight: 600;
+}
+.navbar-right > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    /* padding: 0 1vmax; */
+    margin-right: 5vmax;
+    margin-left: 12vmax;
+}
+.navbar-right > ul  > li {
+    padding: 0 2.5vmax;
+    color: aliceblue;
+}
+.navbar-right  ul li   a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Founders Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+}
+.navbar-right  ul li .selected{
+    color: #FFF900;
+    font-family: 'Founders Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 29px;
+}
