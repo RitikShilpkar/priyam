@@ -36,7 +36,8 @@
     font-family: 'Mazzard';
     font-style: normal;
     font-weight: 200;
-    font-size: 18.8703px;
+    /* font-size: 18.8703px; */
+    font-size: 1.2vmax;
     line-height: 22px
 }
 .navbar-left h6{

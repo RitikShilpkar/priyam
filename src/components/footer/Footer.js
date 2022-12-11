@@ -1,10 +1,36 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Footer.css'
 import logo from './assets/Logo.png'
 import path from './assets/Path.png'
 import shape from './assets/Shape.png'
 // import location from './assets/location.png'
 function Footer() {
+    useEffect(() => {
+        window.addEventListener('resize', (e) => {
+            console.log("first")
+                console.log( document.querySelector('.footer').style.alignItems = 'center')
+                if(e.target.innerWidth < 500){
+                // document.querySelector('.left-lower-footer').style.display = 'none'
+                // document.querySelector('.right-lower-footer').style.display = 'none'
+                // document.querySelector('.uper-footer').style.display = 'none'
+                // document.querySelector('.footer').style.display = 'flex'
+                // document.querySelector('.footer').style.flexDirection = 'column'
+                // document.querySelector('.footer').style.justifyContent = 'center'
+                // document.querySelector('.footer').style.alignItems = 'center'
+                // document.querySelector('.footer').style.alignItems = 'center'
+                }
+                else {
+                    // document.querySelector('.left-lower-footer').style.display = 'flex'
+                    // document.querySelector('.right-lower-footer').style.display = 'flex'
+                    // document.querySelector('.uper-footer').style.display = 'flex'
+                    // document.querySelector('.footer').style.display = 'flex'
+                    // document.querySelector('.footer').style.flexDirection = 'row'
+                    // document.querySelector('.footer').style.justifyContent = 'space-between'
+                    // document.querySelector('.footer').style.alignItems = 'center'
+                }
+        }, true)
+    }, [])
+    
   return (
     <div className='footer'>
         <div className="uper-footer">

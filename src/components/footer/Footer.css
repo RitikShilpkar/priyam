@@ -12,8 +12,8 @@
 .footer::after{
     content: '';
     position: absolute;
-    bottom: -10px;
-    right: 0;
+    bottom: -10%;
+    right: -1%;
     
     /* width: 526px; */
     width: 30vmax;
@@ -27,8 +27,8 @@
 .footer::before{
     content: '';
     position: absolute;
-    right: -10px;
-    bottom: 10%;
+    right: -9%;
+    bottom: 8%;
     background-image: url( './assets/Vector2.png');
     
     width: 24vmax;

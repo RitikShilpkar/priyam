@@ -10,6 +10,7 @@ function Navbar() {
           if(e.target.innerWidth < 500){
             document.querySelector('.navbar-right').style.display = 'none'
             document.querySelector('.menu').style.display = ''
+            document.querySelector('.navbar').style.display = 'flex'
           }
           else {
             document.querySelector('.navbar-right').style.display = 'flex'
